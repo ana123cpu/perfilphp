@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="UTF-8">    
+    <title>
+    </title>
+	</head>
+<body>
+
+<?php
+$vetor = array (
+'Imagem'=>'https://www.powerofmom.co.za/wp-content/uploads/2020/01/avatar-icon-200x200-1.png',
+'Nome' => 'Juliana Chaves',
+'Apelido'=> 'Ju',
+'Cidade'=> 'Bibiú',
+'Endereço' => 'Rua Cleóprata',
+'Bairro' => 'Centro',
+'Email'=>'juchaves00@gmail.com',
+'Curso' =>'Informática para Internet',
+'Disciplina'=>'Programação de Sistema Web',
+);
+echo "<img src=".$vetor['Imagem'].">"."<br>";
+echo "Nome:".$vetor['Nome']."<br>";
+echo "Apelido:".$vetor['Apelido']."<br>";
+echo "Cidade:".$vetor['Cidade']."<br>";
+echo "Endereço:".$vetor['Endereço']."<br>";
+echo "Bairro:".$vetor['Bairro']."<br>";
+echo "Email:".$vetor['Email']."<br>";
+echo "Curso:".$vetor['Curso']."<br>";
+echo "Disciplina:".$vetor['Disciplina'];
+
+?>
+</body>
+</html>
